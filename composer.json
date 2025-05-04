@@ -1,5 +1,5 @@
 {
-    "name": "ahmad/simple-api-service",
+    "name": "lakondev/simple-api-service",
     "description": "Generic API service to simplify HTTP requests in Laravel",
     "type": "library",
     "autoload": {
