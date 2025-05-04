@@ -1,4 +1,4 @@
-# Laravel API Bridge
+# Simple API Service
 
 A lightweight, Guzzle-based HTTP API wrapper for Laravel. Simplifies making API calls without having to write boilerplate code for curl, headers, or token handling.
 
@@ -9,7 +9,7 @@ A lightweight, Guzzle-based HTTP API wrapper for Laravel. Simplifies making API 
 You can install the package via Composer:
 
 ```bash
-composer require ahmad/laravel-api-bridge
+composer require ahmad/simple-api-service
 ```
 
 ---
@@ -19,7 +19,7 @@ composer require ahmad/laravel-api-bridge
 ### 1. Initialize the Service
 
 ```php
-use LaravelApiBridge\SimpleApiService;
+use SimpleApiService\SimpleApiService;
 
 $api = new SimpleApiService();
 ```
