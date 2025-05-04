@@ -1,0 +1,15 @@
+{
+    "name": "ahmad/simple-api-service",
+    "description": "Generic API service to simplify HTTP requests in Laravel",
+    "type": "library",
+    "autoload": {
+      "psr-4": {
+        "SimpleApiService\\": "src/"
+      }
+    },
+    "require": {
+      "php": "^8.0",
+      "guzzlehttp/guzzle": "^7.0"
+    }
+  }
+  
